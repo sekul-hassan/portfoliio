@@ -76,3 +76,22 @@
     color: var(--color5);
     transition: 0.3s;
 }
+.title{
+    font-size: 22px;
+    font-family: Montserrat, serif;
+    text-transform: uppercase;
+    font-weight: 500;
+    color: var(--color7);
+}
+.subTitle{
+    font-size: 19px;
+    font-family: Roboto, serif;
+    font-weight: 500;
+    color: var(--color7);
+}
+.description{
+    font-size: 16px;
+    font-family: Montserrat, serif;
+    font-weight: 400;
+    color: var(--color7);
+}

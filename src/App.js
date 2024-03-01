@@ -4,7 +4,7 @@ import "../src/Assets/CSS/Custom.css";
 import Projects from "./Pages/Projects";
 import {Route, Routes} from "react-router-dom";
 import Home from "./Pages/Home";
-import ProjectDetails from "./Components/ProjectDetails";
+import ProjectDetails from "./Pages/ProjectDetails";
 
 function App() {
 

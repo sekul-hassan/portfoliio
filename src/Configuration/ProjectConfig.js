@@ -23,7 +23,7 @@ const projectData = [
     },
     {
         id:2,
-        link: "cpp-java",
+        link: "java-project",
         title:"Java project",
         description:"This project is made in my first semester of my university life",
         projectLink:"https://recursiveeducation.com",

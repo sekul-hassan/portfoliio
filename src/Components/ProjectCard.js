@@ -2,7 +2,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { Card, Col, Container, Row } from "react-bootstrap";
-import projectData from "./ProjectConfig";
+import projectData from "../Configuration/ProjectConfig";
 
 function ProjectCard(props) {
     return (
