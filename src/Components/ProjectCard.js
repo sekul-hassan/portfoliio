@@ -1,24 +1,24 @@
+// ProjectCard.js
 import React from 'react';
+import { Link } from 'react-router-dom';
 import { Card, Col, Container, Row } from "react-bootstrap";
+import projectData from "./ProjectConfig";
 
 function ProjectCard(props) {
-    const images = require.context('../Assets/Images/ProjectImg',true);
-    const imagePaths = images.keys().map((image) => images(image));
-
     return (
-        <Container fluid="true" className="mb-3">
+        <Container fluid className="mb-3">
             <Row className="mx-0">
-                {
-                    imagePaths.map((imagePath, index) => (
-                        <Col className="mt-3" lg={4} md={4} sm={6} key={index}>
+                {projectData.map((project, index) => (
+                    <Col className="mt-3" lg={4} md={4} sm={6} key={index}>
+                        <Link to={`/projects/${project.link}`}>
                             <Card>
                                 <Card.Body>
-                                    <Card.Img src={imagePath}/>
+                                    <Card.Img src={project.image} />
                                 </Card.Body>
                             </Card>
-                        </Col>
-                    ))
-                }
+                        </Link>
+                    </Col>
+                ))}
             </Row>
         </Container>
     );
