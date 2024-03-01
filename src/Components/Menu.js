@@ -1,5 +1,6 @@
 import React from 'react';
 import {Container, Nav, Navbar} from "react-bootstrap";
+import {Link} from "react-router-dom";
 
 function Menu(props) {
     return (
@@ -10,10 +11,10 @@ function Menu(props) {
                <Navbar.Collapse id="navbarScroll">
                    <Nav className="me-auto"/>
                    <Nav navbarScroll>
-                       <Nav.Link className="navLink" href="#action1">Home</Nav.Link>
-                       <Nav.Link className="navLink" href="#action2">About</Nav.Link>
-                       <Nav.Link className="navLink" href="#action2">Projects</Nav.Link>
-                       <Nav.Link className="navLink" href="#action2">Resume</Nav.Link>
+                       <Nav.Link><Link  className="navLink" to="/">Home</Link></Nav.Link>
+                       <Nav.Link><Link  className="navLink" to="/">About</Link></Nav.Link>
+                       <Nav.Link><Link  className="navLink" to="/projects">Projects</Link></Nav.Link>
+                       <Nav.Link><Link  className="navLink" to="/">Resume</Link></Nav.Link>
                    </Nav>
 
                </Navbar.Collapse>
