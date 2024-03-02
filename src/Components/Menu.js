@@ -12,7 +12,7 @@ function Menu(props) {
                    <Nav className="me-auto"/>
                    <Nav navbarScroll>
                        <Nav.Link><Link  className="navLink" to="/">Home</Link></Nav.Link>
-                       <Nav.Link><Link  className="navLink" to="/">About</Link></Nav.Link>
+                       <Nav.Link><Link  className="navLink" to="/about">About</Link></Nav.Link>
                        <Nav.Link><Link  className="navLink" to="/projects">Projects</Link></Nav.Link>
                        <Nav.Link><Link  className="navLink" to="/skills">Skills</Link></Nav.Link>
                        <Nav.Link><Link  className="navLink" to="/">Resume</Link></Nav.Link>

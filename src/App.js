@@ -6,12 +6,14 @@ import {Route, Routes} from "react-router-dom";
 import Home from "./Pages/Home";
 import ProjectDetails from "./Pages/ProjectDetails";
 import Skill from "./Pages/Skill";
+import About from "./Pages/About";
 
 function App() {
 
   return (
    <Routes>
        <Route path="/" element={<Home/>}/>
+       <Route path="/about" element={<About/>}/>
        <Route path="/skills" element={<Skill/>}/>
        <Route path="/projects" element={ <Projects/>}/>
        <Route path="/projects/:projectName" element={<ProjectDetails />} />

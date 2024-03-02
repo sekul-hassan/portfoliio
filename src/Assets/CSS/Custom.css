@@ -109,6 +109,12 @@
     background-image: var(--gradient2);
     padding: 20px 0 20px 0 ;
 }
-.skillBody{
-    background-color: var(--color6);
+.profile{
+    width: 100%;
+    margin: 0 auto!important;
+}
+.profileImg{
+    width: 200px;
+    height: 200px;
+    /*border-radius: 50%;*/
 }
