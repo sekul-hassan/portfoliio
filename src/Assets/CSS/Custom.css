@@ -95,3 +95,20 @@
     font-weight: 400;
     color: var(--color7);
 }
+.boldDescription{
+    font-size: 16px;
+    font-family: Montserrat, serif;
+    font-weight: 500;
+    color: black;
+}
+.projectDetails{
+    background-image: var(--gradient3);
+    padding: 20px 0 20px 0 ;
+}
+.projectFeature{
+    background-image: var(--gradient2);
+    padding: 20px 0 20px 0 ;
+}
+.skillBody{
+    background-color: var(--color6);
+}

@@ -18,6 +18,7 @@ function Details({project}) {
                        <h4 className="description">Live project link : <a className="description" href={project.projectLink} target="_blank" rel="noreferrer">{project.projectLink}</a></h4>
                    )}
                </Col>
+
            </Row>
        </Container>
     );
