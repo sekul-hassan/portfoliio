@@ -1,0 +1,21 @@
+.resumeProfile{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+.resumeLeft{
+    background-color: #27313e;
+    border-radius: 20px 0 0 20px;
+    padding: 0 0 0 30px !important;
+}
+.resumeRight{
+    padding: 10px 0 10px 30px !important;
+}
+.resumeBody{
+    border: 1px solid silver;
+    margin: 0 40px;
+    border-radius: 20px;
+}
+.hrClass{
+    margin: 0;
+}

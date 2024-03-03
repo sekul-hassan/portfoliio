@@ -15,7 +15,7 @@ function Menu(props) {
                        <Nav.Link><Link  className="navLink" to="/about">About</Link></Nav.Link>
                        <Nav.Link><Link  className="navLink" to="/projects">Projects</Link></Nav.Link>
                        <Nav.Link><Link  className="navLink" to="/skills">Skills</Link></Nav.Link>
-                       <Nav.Link><Link  className="navLink" to="/">Resume</Link></Nav.Link>
+                       <Nav.Link><Link  className="navLink" to="/resume">Resume</Link></Nav.Link>
                    </Nav>
 
                </Navbar.Collapse>
