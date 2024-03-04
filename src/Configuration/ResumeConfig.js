@@ -15,8 +15,8 @@ const resumeInfo = {
     expertise:[
         {id:1, name:"Problem Solving"},
         {id:2, name:"DSA"},
-        {id:3, name:"Git & Github, CI/CD, Basic Docker"},
-        {id:4, name:"Managing Digital Ocean Cloud Server"},
+        {id:3, name:"Git & Github, CI/CD, Docker"},
+        {id:4, name:"Managing Cloud Server"},
         {id:5, name:"C, C++, Java"},
         {id:6, name:"DBMS MySql"},
         {id:7, name:"bKash API integration"},
@@ -28,7 +28,7 @@ const resumeInfo = {
         photo:profile,
         name:"SEKUL HASSAN",
         designation:"Software Engineer",
-        description:"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eveniet harum inventore nam neque nisi quae quasi quisquam quo, rem repellat. Accusamus aliquam animi asperiores aspernatur consequuntur deleniti, facilis fugiat hic maiores officiis quia quis repudiandae sint, sit voluptas. Atque aut consequuntur corporis culpa cum deserunt doloremque, doloribus eligendi eos fugit mollitia numquam repudiandae. A ab asperiores, aspernatur commodi cumque debitis dignissimos dolore ex harum impedit ipsa itaque labore laboriosam magni molestiae mollitia, nemo non omnis quam quia repudiandae sed ut vitae! Accusantium architecto at, delectus ea eos facere id labore natus nesciunt optio quam repudiandae sapiente sunt! Id, laborum officiis?"
+        description:"Sekul Hassan is a skilled Software Engineer with a strong foundation in web development and project management. With a passion for creating efficient and user-friendly solutions, Sekul has demonstrated expertise in both academic and professional settings."
     },
     projects:[
         {id:1, name:"Recursive Education", description:"This is a learning (Academic and Software Development) platform",liveLink:"https://recursiveeducaion.com",gitHubLink:"https://recursiveeducaion.com"},

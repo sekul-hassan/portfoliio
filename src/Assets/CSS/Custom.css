@@ -95,6 +95,12 @@
     font-weight: 400;
     color: var(--color7);
 }
+.resumeDescription{
+    font-size: 14px;
+    font-family: Montserrat, serif;
+    font-weight: 400;
+    color: var(--color7);
+}
 .boldDescription{
     font-size: 16px;
     font-family: Montserrat, serif;

@@ -6,7 +6,7 @@
 .resumeLeft{
     background-color: #27313e;
     border-radius: 20px 0 0 20px;
-    padding: 0 0 0 30px !important;
+    padding: 0 0 0 15px !important;
 }
 .resumeRight{
     padding: 10px 0 10px 30px !important;
@@ -18,4 +18,20 @@
 }
 .hrClass{
     margin: 0;
+}
+.btnBody{
+    margin: 0 40px;
+}
+.btnDownload{
+    background-image: var(--gradient2);
+    font-family: Montserrat, serif;
+    font-weight: 500;
+    font-size: 17px;
+    color: white;
+    border-radius: 20px;
+}
+.btnDownload:hover{
+    background-image: var(--gradient3);
+    border: 1px solid silver;
+    color: black;
 }
