@@ -6,7 +6,7 @@ function Menu(props) {
     return (
        <Container fluid="true">
            <Navbar expand={true} className="navBackground px-4">
-               <Navbar.Brand href="#"><img className="logoImg" src="https://recursiveeducation.com/static/media/black.4283bfd86d63fc6b59db.png" alt=""/></Navbar.Brand>
+               <Link to="/"><Navbar.Brand href="#"><img className="logoImg" src="https://recursiveeducation.com/static/media/black.4283bfd86d63fc6b59db.png" alt=""/></Navbar.Brand></Link>
                <Navbar.Toggle aria-controls="navbarScroll" />
                <Navbar.Collapse id="navbarScroll">
                    <Nav className="me-auto"/>
