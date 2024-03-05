@@ -2,6 +2,7 @@ import profile from "../Assets/Images/profile.jpg";
 
 const resumeInfo = {
     contact:[
+        {id:0, name:"Portfolio", value:"https://sekul.recursiveeducation.com"},
         {id:1, name:"Phone", value:"01824340471"},
         {id:2, name:"Email", value:"sekulhassan3031@gmail.com"},
         {id:3, name:"Github", value:"https://github.com/sekul-hassan"},
@@ -31,15 +32,14 @@ const resumeInfo = {
         description:"Sekul Hassan is a skilled Software Engineer with a strong foundation in web development and project management. With a passion for creating efficient and user-friendly solutions, Sekul has demonstrated expertise in both academic and professional settings."
     },
     projects:[
-        {id:1, name:"Recursive Education", description:"This is a learning (Academic and Software Development) platform",liveLink:"https://recursiveeducaion.com",gitHubLink:"https://recursiveeducaion.com"},
-        {id:2, name:"Mess Management", description:"This is a mess management web platform, here any one can manage his mess including Mess Member, Meal Rate, Daily Bazar Bills etc", gitHubLink:"https://recursiveeducaion.com", liveLink:"https://recursiveeducaion.com"},
-        {id:3, name:"Biye Shadi", description:"This project is developed by inspiring Matrimoni site. After creating an account in this site any one can find out his/her life partner", gitHubLink:"https://recursiveeducaion.com", liveLink:"https://recursiveeducaion.com"},
-        {id:4, name:"NCPC 2023 Registration site", description:"This site is made for registration of ncpc contestants. Main learning outcome of this project is team work and how can handle pressure", gitHubLink:"https://recursiveeducaion.com", liveLink:"https://recursiveeducaion.com"},
-        {id:5, name:"Designer", description:"Which is cloned site of a theme from there forest. It is my first practice designed website using React", gitHubLink:"https://recursiveeducaion.com", liveLink:"https://recursiveeducaion.com"},
+        {id:1, name:"Recursive Education", description:"This is a learning (Academic and Software Development) platform.",liveLink:"https://recursiveeducaion.com",gitHubLink:"https://recursiveeducaion.com"},
+        {id:2, name:"Mess Management", description:"This is a mess management web platform, here any one can manage his mess including Mess Member, Meal Rate, Daily Bazar Bills etc.", gitHubLink:"https://recursiveeducaion.com", liveLink:"https://recursiveeducaion.com"},
+        {id:3, name:"Biye Shadi", description:"This project is developed by inspiring Matrimoni site. After creating an account in this site any one can find out his/her life partner.", gitHubLink:"https://recursiveeducaion.com", liveLink:"https://recursiveeducaion.com"},
+        {id:4, name:"NCPC 2023 Registration site", description:"This site is made for registration of ncpc contestants. Main learning outcome of this project is team work and how can handle pressure.", gitHubLink:"https://recursiveeducaion.com", liveLink:"https://recursiveeducaion.com"},
+        {id:5, name:"Designer", description:"Which is cloned site of a theme from there forest. It is my first practice designed website using React.", gitHubLink:"https://recursiveeducaion.com", liveLink:"https://recursiveeducaion.com"},
     ],
     references:[
         {id:1, name:"XYZ", value:"Company ABC"},
-        {id:2, name:"ABC", value:"Company XYZ"},
     ],
 }
 

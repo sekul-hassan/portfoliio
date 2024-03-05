@@ -5,11 +5,15 @@ function CustomCarousel({images}) {
     return (
         <Fragment>
             <Carousel fade>
-                <Carousel.Item>
-                    <Card>
-                        <img src={images} alt=""/>
-                    </Card>
-                </Carousel.Item>
+                {
+                    images && images.map((image)=>(
+                        <Carousel.Item>
+                            <Card>
+                                <img src={image} alt=""/>
+                            </Card>
+                        </Carousel.Item>
+                    ))
+                }
             </Carousel>
         </Fragment>
     );

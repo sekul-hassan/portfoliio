@@ -8,7 +8,7 @@ function Details({project}) {
            <Row className="mx-0">
                <Col sm={12} md={6} lg={6} className="projectFeature mt-3 px-3">
                    <h4 className="text-center title">Feature Images</h4>
-                   <CustomCarousel images={project.image}/>
+                   <CustomCarousel images={project.images}/>
                </Col>
                <Col sm={12} md={6} lg={6} className="projectDetails mt-3 px-3">
                    <h4 className="text-center title">{project.title}</h4>

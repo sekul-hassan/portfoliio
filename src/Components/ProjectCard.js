@@ -2,9 +2,9 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { Card, Col, Container, Row } from "react-bootstrap";
-import projectData from "../Configuration/ProjectConfig";
 
-function ProjectCard(props) {
+
+function ProjectCard({projectData}) {
     return (
         <Container fluid className="mb-3">
             <Row className="mx-0">
