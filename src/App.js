@@ -1,6 +1,7 @@
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import "../src/Assets/CSS/Custom.css";
+import "../src/Assets/CSS/Responsive.css";
 import Projects from "./Pages/Projects";
 import {Route, Routes} from "react-router-dom";
 import Home from "./Pages/Home";

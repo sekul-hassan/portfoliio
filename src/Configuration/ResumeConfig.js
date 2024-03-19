@@ -39,7 +39,7 @@ const resumeInfo = {
         {id:5, name:"Designer", description:"Which is cloned site of a theme from there forest. It is my first practice designed website using React.", gitHubLink:"https://recursiveeducaion.com", liveLink:"https://recursiveeducaion.com"},
     ],
     references:[
-        {id:1, name:"XYZ", value:"Company ABC"},
+        {id:1, name:"XYZ", value:"Company xxx"},
     ],
 }
 

@@ -1,14 +1,14 @@
 :root {
-    --color1: #C5FFF8;
-    --color2: #96EFFF;
-    --color3: #5FBDFF;
-    --color4: #7B66FF;
-    --color5: white;
-    --color6: #BDC1DC;
-    --color7: rgba(0,0,0,0.8);
-    --gradient1: linear-gradient(to right, #C5FFF8, #96EFFF);
-    --gradient2: linear-gradient(to right, #5FBDFF, #7B66FF);
-    --gradient3: linear-gradient(to bottom, #C5FFF8, #7B66FF);
+    --color1: #25318E;
+    --color2: white;
+    --color3: black;
+    --color4: rgb(135,206,235);
+    --color5: rgb(139, 195, 74);
+    --color6: rgb(205, 220, 57);
+    --color7: rgb(255, 64, 129);
+    --gradient1: linear-gradient(45deg, rgb(255, 64, 129) 30%, rgb(255, 152, 0) 90%);
+    --gradient2: linear-gradient(45deg, rgb(139, 195, 74) 30%, rgb(205, 220, 57) 90%);
+    --gradient3: linear-gradient(45deg, rgb(139, 195, 74) 30%, rgb(205, 220, 57) 90%);
 }
 .topBackground{
     background-image: url("../Images/topBackground.jpg");
@@ -32,18 +32,18 @@
     height: 50px;
 }
 .navBackground{
-    background-image: var(--gradient3) !important;
+    background-image: var(--gradient1) !important;
     height: 50px;
 }
 .navLink{
-    color: var(--color1);
+    color: var(--color2);
     font-size: 20px;
     font-family: Roboto, sans-serif;
     font-weight: 300;
     text-decoration: none;
 }
 .navLink:hover{
-    color: var(--color7);
+    color: var(--color3);
     transition: 0.3s;
 }
 .footerIconDiv{
@@ -82,7 +82,7 @@
     font-family: Montserrat, serif;
     text-transform: uppercase;
     font-weight: 500;
-    color: var(--color7);
+    color: var(--color3);
 }
 .subTitle{
     font-size: 19px;
@@ -94,7 +94,7 @@
     font-size: 16px;
     font-family: Montserrat, serif;
     font-weight: 400;
-    color: var(--color7);
+    color: var(--color3);
 }
 .resumeDescription{
     font-size: 14px;
@@ -109,19 +109,24 @@
     color: black;
 }
 .projectDetails{
-    background-image: var(--gradient3);
+    background-image: var(--gradient2);
     padding: 20px 0 20px 0 ;
 }
 .projectFeature{
     background-image: var(--gradient2);
     padding: 20px 0 20px 0 ;
 }
-.profile{
+.profile {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 100%;
-    margin: 0 auto!important;
 }
-.profileImg{
+
+.profileImg {
     width: 200px;
     height: 200px;
-    /*border-radius: 50%;*/
+}
+.skillBg{
+    background-image: var(--gradient2);
 }

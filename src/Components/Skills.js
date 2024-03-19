@@ -3,7 +3,7 @@ import {Container} from "react-bootstrap";
 
 function Skills({skills}) {
     return (
-       <Container fluid="true" className=" px-5 py-4">
+       <Container fluid="true" className=" px-5 py-4 skillBg">
            <h4 className="text-center boldDescription mb-3">Explore me with my skills</h4>
            {
                skills && skills.map((skill,idx)=>(
