@@ -11,21 +11,28 @@
     --gradient3: linear-gradient(45deg, rgb(139, 195, 74) 30%, rgb(205, 220, 57) 90%);
 }
 .topBackground{
-    background-image: url("../Images/topBackground.jpg");
+    background-image: url("../Images/software.jpg");
     width: 100%;
-    height: 400px;
+    height: 350px;
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
 }
 .topBackgroundOverlay{
-    background-color: rgba(123, 102, 255, 0.2);
+    background-color: rgba(123, 102, 255, 0.3);
     width: 100%;
-    height: 400px;
+    height: 350px;
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+    position: relative;
+}
+.content{
+    display: flex;
+    position: absolute;
+    top: 50% !important;
+    justify-content: center;
 }
 .logoImg{
     width: 100px;
@@ -60,13 +67,17 @@
     margin: 0 10px;
 }
 .navLink:hover{
-    color: var(--color3);
+    color: var(--color4);
+    transition: 0.3s;
+}
+.navLinkScroll:hover{
+    color: black;
     transition: 0.3s;
 }
 .footerIconDiv{
     text-align: center;
     width: 100%;
-    background-image: var(--gradient1);
+    background-image: var(--gradient3);
     padding: 16px;
 }
 .footerLink{
@@ -82,7 +93,7 @@
 }
 .footerCredit{
     text-align: center;
-    background-color: var(--color6);
+    background-image: var(--gradient1);
     color: black;
     font-family: sans-serif;
 }
@@ -112,6 +123,7 @@
     font-family: Montserrat, serif;
     font-weight: 400;
     color: var(--color3);
+    text-decoration: none!important;
 }
 .resumeDescription{
     font-size: 14px;
@@ -145,5 +157,22 @@
     height: 200px;
 }
 .skillBg{
-    background-image: var(--gradient2);
+    background-image: var(--color4);
+}
+.cardBg{
+    background-image: var(--gradient3);
+}
+.cardImg{
+    max-height: 200px;
+    border-radius: 5px 5px 0 0!important;
+}
+.projectTopBg{
+    background-image: url("../Images/software.jpg");
+    width: 100%;
+    height: 270px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    position: relative;
 }

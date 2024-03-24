@@ -5,6 +5,7 @@
 }
 .resumeLeft{
     background-color: #27313e;
+    /*background-image: var(--gradient3);*/
     border-radius: 20px 0 0 20px;
     padding: 0 0 0 15px !important;
 }
@@ -29,9 +30,9 @@
     font-size: 17px;
     color: white;
     border-radius: 20px;
+    border: none;
 }
 .btnDownload:hover{
-    background-image: var(--gradient3);
-    border: 1px solid silver;
+    background-image: var(--gradient1) !important;
     color: black;
 }

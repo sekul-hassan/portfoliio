@@ -3,7 +3,7 @@ import profile from "../Assets/Images/profile.jpg";
 const abouts = {
     name:"SEKUL HASSAN",
     image:profile,
-    description:"SEO of Recursive Education",
+    description:"CEO of Recursive Education",
     academic:{
         university:"Under graduate student at Jahangirnagar University (Department of Computer Science of Engineering).",
         college:"Netrakona Govt. Collage",

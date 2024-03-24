@@ -4,7 +4,7 @@ import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 import {faFacebook, faGithub, faLinkedin, faYoutube} from "@fortawesome/free-brands-svg-icons";
 function Footer(props) {
     return (
-       <Container fluid="true">
+       <Container fluid="true" className="mt-2">
           <div className="footerIconDiv">
               <a className="footerLink" href="#abc"><FontAwesomeIcon icon={faLinkedin}/></a>
               <a className="footerLink" href="#abc"><FontAwesomeIcon icon={faGithub}/></a>
@@ -12,7 +12,7 @@ function Footer(props) {
               <a className="footerLink" href="#abc"><FontAwesomeIcon icon={faYoutube}/></a>
           </div>
            <div className="footerCredit">
-               <p>© 2024 <a href="https://recursiveeducation.com" target="_blank" rel="noreferrer"><strong>recursiveeducation.com</strong></a></p>
+               <p className="m-0">© 2024 <a href="https://recursiveeducation.com" target="_blank" rel="noreferrer"><strong>recursiveeducation.com</strong></a></p>
            </div>
        </Container>
     );

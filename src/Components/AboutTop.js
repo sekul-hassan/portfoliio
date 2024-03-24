@@ -3,7 +3,7 @@ import {Container} from "react-bootstrap";
 
 function AboutTop({abouts}) {
     return (
-        <Container fluid="true" className="mt-3 text-dark skillBg">
+        <Container fluid="true" className="text-dark skillBg mt-3">
             <div className="mx-0 profile">
                 <img className="profileImg" src={abouts.image} alt=""/>
             </div>

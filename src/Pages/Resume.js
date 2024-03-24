@@ -4,6 +4,7 @@ import Footer from "../Components/Footer";
 import ResumeComponent from "../Components/ResumeComponent";
 import DownloadBtn from "../Components/DownloadBtn";
 import html2pdf from "html2pdf.js/src";
+import ProjectTop from "../Components/ProjectTop";
 
 function Resume(props) {
     const savePdf = (e)=>{
@@ -13,11 +14,13 @@ function Resume(props) {
             .from(element)
             .save("ss201001")
     }
+    const text = "Explore me with my resume"
     return (
       <Fragment>
           <Menu/>
+          <ProjectTop text={text}/>
           <ResumeComponent/>
-          <DownloadBtn savePdf={savePdf}/>
+          <DownloadBtn callFunction={savePdf} text="Download as a pdf"/>
           <Footer/>
       </Fragment>
     );
