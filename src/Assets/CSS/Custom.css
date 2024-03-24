@@ -32,8 +32,16 @@
     height: 50px;
 }
 .navBackground{
-    background-image: var(--gradient1) !important;
+    background-color: rgba(0,0,0,0.6) !important;
     height: 50px;
+    padding: 0;
+    transition: 0.2s;
+}
+.navBackgroundScroll{
+    background-color: white !important;
+    height: 50px;
+    padding: 0;
+    transition: 0.2s;
 }
 .navLink{
     color: var(--color2);
@@ -41,6 +49,15 @@
     font-family: Roboto, sans-serif;
     font-weight: 300;
     text-decoration: none;
+    margin: 0 10px;
+}
+.navLinkScroll{
+    color: var(--color1);
+    font-size: 20px;
+    font-family: Roboto, sans-serif;
+    font-weight: 300;
+    text-decoration: none;
+    margin: 0 10px;
 }
 .navLink:hover{
     color: var(--color3);

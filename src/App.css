@@ -1,3 +1,18 @@
 .pl-3{
-  padding-right: 10px!important;
+  padding-right: 10px;
+}
+.pr-3{
+  padding-right: 20px;
+}
+.ml-3{
+  margin-left: 30px;
+}
+.mr-3{
+  margin-right: 30px;
+}
+.navbar-toggler{
+  margin-right: 20px!important;
+}
+.pr-lg-3{
+  padding-right: 30px!important;
 }
