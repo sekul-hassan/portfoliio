@@ -25,11 +25,11 @@
 
 }
 @media screen and (max-width: 360px){
-    .navbar {
-        width: 100%;
-        background-color: white;
-        text-align: left!important; /* Alignment set to left */
-    }
+    /*.navbar {*/
+    /*    width: 100%;*/
+    /*    background-color: white;*/
+    /*    text-align: left!important; !* Alignment set to left *!*/
+    /*}*/
     /*.navBackground{*/
     /*    height: 40px;*/
     /*    padding: 0!important;*/
