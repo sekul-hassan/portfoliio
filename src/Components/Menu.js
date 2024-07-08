@@ -36,7 +36,7 @@ function Menu(props) {
     return (
         <Container fluid="true">
             <Navbar fixed="top" expand="md" className={`${css.navBackground} pr-lg-3`}>
-                <Link to="/"><Navbar.Brand><img className="logoImg ml-3" src="https://recursiveeducation.com/static/media/black.4283bfd86d63fc6b59db.png" alt="" /></Navbar.Brand></Link>
+                <Link to="/"><Navbar.Brand><img className="logoImg ml-3" src="https://recursiveeducation.com/static/media/wightLogo.e2db8323a1934294f005.png" alt="" /></Navbar.Brand></Link>
                 <Navbar.Toggle aria-controls="navbarScroll"/>
                 <Navbar.Collapse id="navbarScroll">
                     <Nav className="me-auto" />
