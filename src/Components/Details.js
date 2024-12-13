@@ -14,10 +14,22 @@ function Details({project}) {
                <Col sm={12} md={6} lg={6} className="projectDetails mt-3 px-3">
                    <h4 className="text-center title">{project.title}</h4>
                    <p className="description">{project.description}</p>
-                   <h4 className="description">Github link : <a className="description" href={project.gitHubLink} target="_blank" rel="noreferrer">{project.gitHubLink}</a></h4>
-                   {project.projectLink && (
-                       <h4 className="description">Live project link : <a className="description" href={project.projectLink} target="_blank" rel="noreferrer">{project.projectLink}</a></h4>
+
+                   {project.frontEndLink && (
+                       <h4 className="description"><strong>Frontend Link :</strong> <a className="description text-primary" href={project.frontEndLink}
+                                                                                       target="_blank"
+                                                                                       rel="noreferrer">{project.frontEndLink}</a></h4>
                    )}
+                   {project.backendLink &&
+                       <h4 className="description"><strong>Backend Link : </strong><a className="description text-primary" href={project.backendLink}
+                                                                     target="_blank"
+                                                                     rel="noreferrer">{project.backendLink}</a></h4>
+                   }
+                   {project.liveLink &&
+                       <h4 className="description"><strong>Live Link : </strong><a className="description text-primary" href={project.liveLink}
+                                                                    target="_blank"
+                                                                    rel="noreferrer">{project.liveLink}</a></h4>
+                   }
                </Col>
 
            </Row>

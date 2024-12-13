@@ -15,7 +15,6 @@ function Projects(props) {
                <h4 className="title text-center">List of Completed Projects</h4>
                <ProjectCard projectData={projectData}/>
            </div>
-
            <Footer/>
        </Fragment>
     );
