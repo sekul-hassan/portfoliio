@@ -11,7 +11,11 @@ function Projects(props) {
        <Fragment>
            <Menu/>
            <ProjectTop text={text}/>
-           <ProjectCard projectData={projectData}/>
+           <div className="skillBg p-4">
+               <h4 className="title text-center">List of Completed Projects</h4>
+               <ProjectCard projectData={projectData}/>
+           </div>
+
            <Footer/>
        </Fragment>
     );

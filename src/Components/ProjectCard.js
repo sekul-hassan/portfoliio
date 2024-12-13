@@ -9,7 +9,7 @@ function ProjectCard({projectData}) {
         <Container fluid className="mb-3">
             <Row className="mx-0">
                 {projectData.map((project, index) => (
-                    <Col className="mt-3" lg={4} md={4} sm={6} key={index}>
+                    <Col className="mt-2" lg={3} md={4} sm={6} key={index}>
                         <Link to={`/projects/${project.link}`}>
                             <Card className="cardBg">
                                 <Card.Body className="p-0">

@@ -4,8 +4,9 @@ import CustomCarousel from "./CustomCarousel";
 
 function Details({project}) {
     return (
-       <Container fluid="true">
-           <Row className="mx-0">
+       <Container fluid="true" className="skillBg px-lg-5 p-md-4 p-sm-3">
+           <Row className="mx-0 pt-lg-0">
+               <h3 className="title text-center">Project Overview</h3>
                <Col sm={12} md={6} lg={6} className="projectFeature mt-3 px-3">
                    <h4 className="text-center title">Feature Images</h4>
                    <CustomCarousel images={project.images}/>

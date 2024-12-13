@@ -3,7 +3,8 @@ import {Container} from "react-bootstrap";
 
 function Skills({skills}) {
     return (
-        <Container fluid="true" className=" px-5 py-4 skillBg">
+        <Container fluid="true" className="p-4 skillBg">
+            <h4 className="title text-center mt-2 mb-4">Skills</h4>
             {
                 skills && skills.map((skill,idx)=>(
                     <Fragment key={idx}>

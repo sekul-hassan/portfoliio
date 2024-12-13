@@ -4,12 +4,12 @@ import {Card, Carousel} from "react-bootstrap";
 function CustomCarousel({images}) {
     return (
         <Fragment>
-            <Carousel fade>
+            <Carousel fade className="mt-4">
                 {
                     images && images.map((image)=>(
                         <Carousel.Item>
                             <Card>
-                                <img src={image} alt=""/>
+                                <img className="projectImg" src={image} alt=""/>
                             </Card>
                         </Carousel.Item>
                     ))

@@ -1,4 +1,4 @@
-@media screen and (max-width: 766.33px) {
+@media screen and (max-width: 766px) {
     .navbar-toggler {
         color: white;
         border: 1px solid black;
@@ -24,6 +24,27 @@
     }
 
 }
+
+@media screen and (max-width: 575px){
+    .countBg{
+        height: 400px;
+    }
+    .countBgOverlay{
+        padding-top: 60px;
+        height: 400px;
+    }
+    .rmb-5{
+        margin-top: -16px;
+        margin-bottom: -10px;
+    }
+}
+
+@media screen and (min-width: 770px){
+    .projectFeature{
+        min-height: 460px;
+    }
+}
+
 @media screen and (max-width: 360px){
     /*.navbar {*/
     /*    width: 100%;*/

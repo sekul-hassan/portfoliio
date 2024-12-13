@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { Container, Nav, Navbar } from "react-bootstrap";
 import { Link } from "react-router-dom";
+import logo from "../Assets/Images/wightLogo.png";
 
 function Menu(props) {
     const [css, setCss] = useState({
@@ -36,7 +37,7 @@ function Menu(props) {
     return (
         <Container fluid="true">
             <Navbar fixed="top" expand="md" className={`${css.navBackground} pr-lg-3`}>
-                <Link to="/"><Navbar.Brand><img className="logoImg ml-3" src="https://recursiveeducation.com/static/media/wightLogo.e2db8323a1934294f005.png" alt="" /></Navbar.Brand></Link>
+                <Link to="/"><Navbar.Brand><img className="logoImg ml-3" src={logo} alt="recursive education logo" /></Navbar.Brand></Link>
                 <Navbar.Toggle aria-controls="navbarScroll"/>
                 <Navbar.Collapse id="navbarScroll">
                     <Nav className="me-auto" />

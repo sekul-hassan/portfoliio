@@ -1,9 +1,9 @@
-import profile from "../Assets/Images/profile.jpg";
+import profile from "../Assets/Images/sekul22.png";
 
 const abouts = {
     name:"SEKUL HASSAN",
     image:profile,
-    description:"CEO of Recursive Education",
+    description:"Founder of Recursive Education",
     academic:{
         university:"Under graduate student at Jahangirnagar University (Department of Computer Science of Engineering).",
         college:"Netrakona Govt. Collage",

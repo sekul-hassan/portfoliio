@@ -4,7 +4,7 @@ import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 import {faFacebook, faGithub, faLinkedin, faYoutube} from "@fortawesome/free-brands-svg-icons";
 function Footer(props) {
     return (
-       <Container fluid="true" className="mt-2">
+       <Container fluid="true">
           <div className="footerIconDiv">
               <a className="footerLink" href="#abc"><FontAwesomeIcon icon={faLinkedin}/></a>
               <a className="footerLink" href="#abc"><FontAwesomeIcon icon={faGithub}/></a>
