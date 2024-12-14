@@ -14,6 +14,12 @@ function ResumeComponent(props) {
                        </div>
                        <h4 className="resumeTitle text-white mt-3">Contact</h4>
                        <hr className="hrClass"/>
+                       <h4 className="resumeBoldDescription text-white mt-3">Portfolio</h4>
+                       <a target="_blank" className="resumeDescription text-white text-decoration-none m-0 p-0" rel="noreferrer" href="https://sekul-hassan.github.io/portfoliio">https://sekul-hassan.github.io</a>
+
+                       <h4 className="resumeBoldDescription text-white mt-3">LinkedIn</h4>
+                       <a target="_blank" className="resumeDescription text-white text-decoration-none m-0 p-0" rel="noreferrer" href="https://bd.linkedin.com/in/sekul-hassan">https:linkedin.com/sekul-hassan</a>
+
                        {
                            resumeInfo.contact.map((data)=> (
                                data.name==="Portfolio" || data.name==="Github" || data.name==="LinkedIn" ? (
