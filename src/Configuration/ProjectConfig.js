@@ -1,18 +1,3 @@
-import java from "../Assets/Images/ProjectImg/Java.jpg";
-import react from "../Assets/Images/ProjectImg/react.jpg";
-/// Project 0
-import r1 from "../Assets/Images/RecursiveEducation/recursiveeducation1.png";
-import r2 from "../Assets/Images/RecursiveEducation/recursiveeducation2.png";
-import r3 from "../Assets/Images/RecursiveEducation/recursiveeducation3.png";
-import r4 from "../Assets/Images/RecursiveEducation/recursiveeducation4.png";
-import r5 from "../Assets/Images/RecursiveEducation/recursiveeducation5.png";
-import r6 from "../Assets/Images/RecursiveEducation/recursiveeducation6.png";
-/// Project 1
-import ncpc1 from "../Assets/Images/Ncpc/ncpc1.png"
-import ncpc2 from "../Assets/Images/Ncpc/ncpc2.png"
-import ncpc3 from "../Assets/Images/Ncpc/ncpc3.png"
-import ncpc4 from "../Assets/Images/Ncpc/ncpc4.png"
-
 const ncpcImageContext = require.context('../Assets/Images/Ncpc', false, /\.(png|jpe?g|gif)$/);
 const ncpcImages = ncpcImageContext.keys().map(ncpcImageContext);
 
@@ -25,6 +10,9 @@ const storeImages = storeImageContext.keys().map(storeImageContext);
 
 const reImageContext = require.context('../Assets/Images/RecursiveEducation', false, /\.(png|jpe?g|gif)$/);
 const reImages = reImageContext.keys().map(reImageContext);
+
+const batchImageContext = require.context('../Assets/Images/Batch', false, /\.(png|jpe?g|gif)$/);
+const batchImages = batchImageContext.keys().map(batchImageContext);
 
 
 const projectData = [
@@ -73,27 +61,14 @@ const projectData = [
 
     {
         id:4,
-        link: "ncpc",
-        title:"React project",
-        description:"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab aliquam consectetur corporis et excepturi expedita fuga labore laboriosam natus nisi non obcaecati officia praesentium quaerat, quibusdam quo recusandae soluta voluptatum.",
-        projectLink:"https://recursiveeducation.com",
-        gitHubLink:"https://github.com/sekul-hassan",
-        image:react,
-        images:[
-            ncpc1,ncpc2,ncpc3,ncpc4
-        ],
+        link: "batch-management",
+        title:"Batch Management",
+        description:"The Batch Management System is a full-stack web application designed to streamline the management of academic batches, semesters, courses, and student data. Inspired by the functionality of platforms like Google Classroom, this system enables efficient batch administration for academic institutions.",
+        frontEndLink:"https://github.com/sekul-hassan/Batch_management",
+        backendLink:"https://github.com/sekul-hassan/batch_backend",
+        image:batchImages[0],
+        images:batchImages,
     },
-    {
-        id:5,
-        link: "java-project",
-        title:"Java project",
-        description:"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab aliquam consectetur corporis et excepturi expedita fuga labore laboriosam natus nisi non obcaecati officia praesentium quaerat, quibusdam quo recusandae soluta voluptatum.",
-        projectLink:"https://recursiveeducation.com",
-        gitHubLink:"https://github.com/sekul-hassan",
-        image:java,
-        images:[
-            r1,r2,r3,r4,r5,r6
-        ],
-    },
+
 ]
 export default projectData;

@@ -7,18 +7,18 @@
     background-color: #27313e;
     /*background-image: var(--gradient3);*/
     border-radius: 20px 0 0 20px;
-    padding: 0 0 0 15px !important;
+    padding: 0 0 0 2px ;
 }
 .resumeRight{
-    padding: 10px 0 10px 30px !important;
+    padding: 5px 0 1px 10px !important;
 }
 .resumeBody{
-    border: 1px solid silver;
-    margin: 0 40px;
+    border: 1px solid #27313e;
     border-radius: 20px;
 }
 .hrClass{
     margin: 0;
+    padding: 0;
 }
 .btnBody{
     margin: 0 40px;

@@ -114,6 +114,7 @@
     font-weight: 500;
     color: var(--color3);
 }
+
 .title1{
     font-size: 15px;
     font-family: Montserrat, serif;
@@ -133,11 +134,24 @@
     line-height: 1.6rem;
     color: var(--color3);
 }
+.resumeTitle{
+    font-size: 17px;
+    font-family: Montserrat, serif;
+    text-transform: uppercase;
+    font-weight: 500;
+    color: var(--color3);
+}
 .resumeDescription{
     font-size: 14px;
     font-family: Montserrat, serif;
-    font-weight: 400;
-    color: var(--color7);
+    font-weight: 500;
+    color: var(--color3);
+}
+.resumeBoldDescription{
+    font-size: 15px;
+    font-family: Montserrat, serif;
+    font-weight: 500;
+    color: black;
 }
 .boldDescription{
     font-size: 16px;
@@ -145,6 +159,7 @@
     font-weight: 500;
     color: black;
 }
+
 .projectDetails{
     background-color: var(--color8);
     padding: 20px 0 20px 0 ;
