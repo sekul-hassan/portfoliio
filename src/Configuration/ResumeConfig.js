@@ -2,11 +2,11 @@ import profile from "../Assets/Images/sekul22.png";
 
 const resumeInfo = {
     contact:[
-        {id:0, name:"Portfolio", value:"https://sekul.recursiveeducation.com"},
+        {id:0, name:"Portfolio", value:"https://sekul-hassan.github.io/portfoliio"},
         {id:1, name:"Phone", value:"01824340471"},
         {id:2, name:"Email", value:"sekulhassan3031@gmail.com"},
         {id:3, name:"Github", value:"https://github.com/sekul-hassan"},
-        {id:4, name:"LinkedIn", value:"https://linkedIn/in/sekul-hassan"},
+        {id:4, name:"LinkedIn", value:"https://bd.linkedin.com/in/sekul-hassan"},
         {id:5, name:"Address", value:"JU, Saver, Dhaka"},
     ],
     education:[

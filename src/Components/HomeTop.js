@@ -5,7 +5,7 @@ import DownloadBtn from "./DownloadBtn";
 function HomeTop(props) {
 
     const callFunction = ()=>{
-
+        window.open('https://www.facebook.com/sekul.hassan', '_blank');
     }
 
     return (
