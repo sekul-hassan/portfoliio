@@ -28,7 +28,7 @@
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
   },
-  "homepage": "https://sekul-hassan.github.io/portfoliio",
+  "homepage": "https://sekul-hassan.github.io/website",
   "eslintConfig": {
     "extends": [
       "react-app",
